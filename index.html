@@ -4,10 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Tindog</title>
   </head>
   <body>
+    <header class="main-header">
+      <a href="#"
+        ><img
+          src="/images/icon-profile.png"
+          alt="profile image"
+          class="header-image"
+      /></a>
+      <a href="#"
+        ><img src="/images/logo.png" alt="Tindog logo" class="header-image"
+      /></a>
+      <a href="#"
+        ><img
+          src="/images/icon-chat.png"
+          alt="chat bubble"
+          class="header-image"
+      /></a>
+    </header>
+    <main class="container">
+      <div class="image-container">
+        <img src="/images/dog-bella.jpg" class="main-dog-image" alt="bella" />
+        <div class="text-container">
+          <h1 class="name-age">Bella, 43</h1>
+          <p class="dog-bio">
+            "Yup, that's my owner. U can meet him if you want"
+          </p>
+        </div>
+        <div class="like-nope-image-container">
+          <img src="/images/badge-like.png" alt="like" />
+        </div>
+      </div>
+      <div class="yes-no-container">
+        <div class="button-background" id="btn-no">
+          <a href="#" class="choice-btn-link"
+            ><img src="/images/icon-cross.png" alt="cross" class="choice-btn"
+          /></a>
+        </div>
+        <div class="button-background" id="btn-yes">
+          <a href="#" class="choice-btn-link"
+            ><img src="/images/icon-heart.png" alt="heart" class="choice-btn"
+          /></a>
+        </div>
+      </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
